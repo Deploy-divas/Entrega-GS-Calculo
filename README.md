@@ -16,7 +16,7 @@ O AUdi é um chaveiro assistivo que identifica objetos por NFC e reproduz descri
 
 | Arquivo | Conteúdo |
 |---|---|
-| `relatorio-calculo-cao-guia.pdf` | Relatório técnico com o problema, as premissas, o desenvolvimento matemático, os gráficos, a análise dos resultados e a conclusão. |
+| `relatorio-tecnico-AUdi.pdf` | Relatório técnico com o problema, as premissas, o desenvolvimento matemático, os gráficos, a análise dos resultados e a conclusão. |
 | `modelo_bateria.py` | Cálculo dos cenários e geração dos gráficos e dados. |
 | `verificar_modelo.py` | Verificações matemáticas e numéricas do modelo. |
 | `requirements.txt` | Dependência necessária para gerar os gráficos. |
