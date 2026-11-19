@@ -1,0 +1,112 @@
+{
+    "premissas": {
+        "origem": "Todos os números são hipotéticos; não houve ensaio físico.",
+        "energia_nominal_Wh": 1.85,
+        "fator_disponivel": 0.8,
+        "energia_inicial_Wh": 1.4800000000000002,
+        "reserva_Wh": 0.14800000000000002,
+        "potencia_espera_W": 0.06,
+        "potencia_ativa_W": 0.6,
+        "duracao_evento_s": 12.0,
+        "k_Wh_por_evento": 0.0018000000000000002,
+        "horizonte_h": 24.0
+    },
+    "cenarios": [
+        {
+            "nome": "Leve",
+            "a": 2.0,
+            "b": 0.2,
+            "tempo_reserva_h": 19.830435375859935,
+            "derivada_8h_Wh_por_h": -0.06648,
+            "consumo_8h_Wh": 0.52032,
+            "energia_8h_Wh": 0.9596800000000002,
+            "taxa_media_0a8_Wh_por_h": -0.06504,
+            "erro_integral_Wh": 1.1102230246251565e-16,
+            "ocupacao_final_horizonte": 0.02266666666666667,
+            "limite_esquerda": [
+                {
+                    "epsilon_h": 1.0,
+                    "energia_Wh": 0.21855895673530967
+                },
+                {
+                    "epsilon_h": 0.1,
+                    "energia_Wh": 0.15507209567353097
+                },
+                {
+                    "epsilon_h": 0.01,
+                    "energia_Wh": 0.14870737156735303
+                },
+                {
+                    "epsilon_h": 0.001,
+                    "energia_Wh": 0.1480707387767355
+                }
+            ]
+        },
+        {
+            "nome": "Moderado",
+            "a": 6.0,
+            "b": 1.0,
+            "tempo_reserva_h": 15.685855238574117,
+            "derivada_8h_Wh_por_h": -0.0852,
+            "consumo_8h_Wh": 0.624,
+            "energia_8h_Wh": 0.8560000000000002,
+            "taxa_media_0a8_Wh_por_h": -0.078,
+            "erro_integral_Wh": 1.1102230246251565e-16,
+            "ocupacao_final_horizonte": 0.1,
+            "limite_esquerda": [
+                {
+                    "epsilon_h": 1.0,
+                    "energia_Wh": 0.24613453942943342
+                },
+                {
+                    "epsilon_h": 0.1,
+                    "energia_Wh": 0.1578944539429432
+                },
+                {
+                    "epsilon_h": 0.01,
+                    "energia_Wh": 0.14899025539429434
+                },
+                {
+                    "epsilon_h": 0.001,
+                    "energia_Wh": 0.14809903363942922
+                }
+            ]
+        },
+        {
+            "nome": "Intenso",
+            "a": 10.0,
+            "b": 3.0,
+            "tempo_reserva_h": 12.050372192814539,
+            "derivada_8h_Wh_por_h": -0.1212,
+            "consumo_8h_Wh": 0.7968,
+            "energia_8h_Wh": 0.6832000000000003,
+            "taxa_media_0a8_Wh_por_h": -0.0996,
+            "erro_integral_Wh": 1.1102230246251565e-16,
+            "ocupacao_final_horizonte": 0.2733333333333333,
+            "limite_esquerda": [
+                {
+                    "epsilon_h": 1.0,
+                    "energia_Wh": 0.2883720098411984
+                },
+                {
+                    "epsilon_h": 0.1,
+                    "energia_Wh": 0.16228020098411977
+                },
+                {
+                    "epsilon_h": 0.01,
+                    "energia_Wh": 0.14943045009841183
+                },
+                {
+                    "epsilon_h": 0.001,
+                    "energia_Wh": 0.1481430693098411
+                }
+            ]
+        }
+    ],
+    "sensibilidade": {
+        "dT_da_h_por_evento_por_h": -0.2850979021268817,
+        "T_a6_h": 15.685855238574117,
+        "T_a7_h": 15.405143303347169,
+        "efeito_exato_h": -0.2807119352269485
+    }
+}
